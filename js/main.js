@@ -21,13 +21,13 @@ btnForm.addEventListener("click", function () {
         item.appendChild(checkBox)
 
         checkBox.addEventListener("click",function (){
-            checkBoxValue.style.color = "#555";
-            checkBoxValue.style.textDecoration = "line-through";
+            checkBoxValue.classList.toggle("item-span");
         })
 
         let checkBoxValue = document.createElement("span");
         checkBoxValue.classList.add("w-100");
         checkBoxValue.classList.add("fs-4");
+
         checkBoxValue.innerText = input.value;
         item.appendChild(checkBoxValue);
 

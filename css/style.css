@@ -1,3 +1,7 @@
 img {
     width: 5%;
 }
+.item-span {
+    color: #555;
+    text-decoration: line-through;
+}
