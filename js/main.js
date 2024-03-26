@@ -15,7 +15,7 @@ btnForm.addEventListener("click", function () {
         list.appendChild(item);
 
         let checkBox = document.createElement("input");
-        checkBox.setAttribute("type","radio");
+        checkBox.setAttribute("type","checkbox");
         checkBox.classList.add("mx-3");
         checkBox.classList.add("fs-3");
         item.appendChild(checkBox)
